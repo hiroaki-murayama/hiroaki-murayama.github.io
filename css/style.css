@@ -224,13 +224,7 @@ li {
   width: 16%;
   width: 100px;
 }
-.logo-container:not(:first-child) {margin-left: 7.5%;}
-.logo-container:first-child {margin-top: .2em;}
-.logo-container:nth-of-type(2) img {margin-top: 1.2em}
-.logo-container:nth-of-type(3) img {margin-top: 1.8em;}
-.logo-container:nth-of-type(4) img {margin-top: 2.35em;}
-.logo-container:nth-of-type(5) img {margin-top: .35em;}
-.logo-container:last-of-type img {margin-top: .65em;}
+
 .sec-partners img {
   float: left;
   width: 100%;
