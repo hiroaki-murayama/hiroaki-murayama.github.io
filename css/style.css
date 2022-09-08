@@ -23,7 +23,7 @@ nav{
     }
     nav ul li{
     display: table-cell;
-    width: 20%;
+    width: 16.6%;
     }
     nav ul li a{
     display: block;
@@ -42,8 +42,10 @@ nav{
     border-top: 5px solid #d49494;
     }
 /*Typography*/
-html {font: 16px Helvetica, sans-serif;}
+html {font: 16px;
+font-family: 'Calibri','Osaka',sans-serif;}
 h1 {font-size: 2.25em;
+
     }
 h2 {font-size: 2em;
     text-align: center;
