@@ -43,7 +43,8 @@ nav{
     }
 /*Typography*/
 html {font: 16px;
-font-family: 'Calibri','Osaka',sans-serif;}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+font-family: 'Calibri','Open Sans','Osaka',sans-serif;}
 h1 {font-size: 2.25em;
 
     }
