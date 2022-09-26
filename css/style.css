@@ -42,9 +42,8 @@ nav{
     border-top: 5px solid #d49494;
     }
 /*Typography*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 html {font: 16px;
-font-family: 'Calibri','Open Sans','Osaka',sans-serif;}
+font-family: 'Calibri','Iowan Old Style','Osaka',sans-serif;}
 h1 {font-size: 2.25em;
 
     }
