@@ -6,6 +6,7 @@ $ghostWhite: #f8f8ff;
 $lightGrey: #d3d3d3;
 
 
+
 // Mixins
 @mixin transition($property) {transition: $property .25s;}
 nav{
@@ -36,14 +37,18 @@ nav{
     
     nav ul li a:hover{
     color: #aa0303;
-    background-color: #dfe1e9;
+    background-color: #a4c6ff;
     }
     nav ul li:hover{
     border-top: 5px solid #d49494;
     }
 /*Typography*/
+
 html {font: 16px;
-font-family: 'Calibri','Iowan Old Style','Osaka',sans-serif;}
+font-family: 'Iowan Old Style','Calibri','Osaka',sans-serif;}
+a{
+  color: #005FFF;
+ }
 h1 {font-size: 2.25em;
 
     }
