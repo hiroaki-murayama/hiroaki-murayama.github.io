@@ -7,17 +7,17 @@
        <link rel="stylesheet" href="css/style.css">
    </head>
 <div class="line"></div>
-<header style="background-image:url(img/header2.jpg)"></header>
+<header style="background-image:url(img/header5.jpg)"></header>
 
 
-    <h1><font color = "black">Hiroaki Murayama</font></h1>
+    <h1><font color = "black">Hiroaki Murayama 村山泰章</font></h1>
     <nav><ul>
       <li class=”nav-ul”><a href=index.html>Home</a></li>
       <li class=”nav-ul”><a href=japanese.html>Home（日本語）</a></li>
       <li><a href=aboutme.html>About me</a></li>
+      <li><a href=others.html>About me (日本語)</a></li>
       <li><a href=publications.html>Research</a></li>
       <li><a href="pdf/CV_HM.pdf" target="_blank" rel="noopener">Curriculum vitae</a></li> 
-      <li><a href=others.html>Miscellaneous</a></li>
       </ul>
       </nav>
   </header>
@@ -27,28 +27,38 @@
   
   <main role="main">
 
-   <section class="sec-intro" role="section">
+
+
+    <section class="sec-intro" role="section">
     </section>
-    <section class="sec-events" role="section">
-      <br><br>
-      <h1>Other Activities</h1>
-     
-      <article>
-        <h1></h1>
-         <p> I join in COVID-19 Vaccine NGO <u><strong>CoV-Navi</strong></u> to advise the knowledge about the epidemiology of COVID-19. <a href="https://covnavi.jp/">CoV-Navi Link</a><br>
-            </p>
-         <p> Let me share some of my presentation slides, which may be available only on PC (?):</p>
-         <article>
-            <li><strong>An introduction to infectious disease modelling (in Japanese)</strong></li>
-            <object data="pdf/IDE_intro.pdf" type="application/pdf" width="100%" height="525px">
-            </object><br><br>
-            <li><strong>Vaccine efficacy/effectiveness and optimal COVID-19 vaccine allocation strategy (in Japanese)</strong></li>
-            <object data="pdf/MERC_presentation_murayama_3.pdf" type="application/pdf" width="100%" height="525px">
-            </object><br><br>
-            <li><strong>Estimating epidemiological time intervals</strong></li>   
-            <object data="pdf/MERC_presentation_murayama_2.pdf" type="application/pdf" width="100%" height="525px">
-            </object>
-            </article>
+    <section class="sec-boxes" role="section">
+        <h1>About me</h1>
+        <style>
+          .flex{
+              display: flex;
+              justify-content: space-between;
+          }
+          .flex>p{
+              width: 49%;
+          }
+          </style>
+      <div class="flex">
+       <article>
+        <p><img class="fit-picture" src="img/me1.jpg" alt="me1" width="410" height="310" border="1"></p>
+
+        <p>村山泰章と申します。研究テーマは感染症疫学の分野に根ざしており、感染症の伝播ダイナミクスの数学的な定式化を探求し、最先端の統計的および計算的手法を用いて公衆衛生課題に対峙しています。</p>
+        <p>研究の中心は感染症の伝播動態とその制御戦略の定量化です。特に、確率過程、ネットワークモデリング、ベイジアンアプローチなどの手法を駆使し、理論的な枠組みを構築することで定量的な公衆衛生学的示唆を提供することに注力しています。COVID-19やエムポックスなどの直接伝播性疾患の動態を理解し、non-i.i.d.な状況下での伝播パターンの再構築に力を入れています。</p>
+        <p>2020年から厚生労働省のCOVID-19クラスター対策班の参与として、COVID-19のリスクと影響を評価するための包括的な分析を行ってきました。また、その他でもワクチンの減弱効果の推定方法の開発や、医療負担が病死率に与える影響の探求、そして気温が疾患の伝播に与える非線形な影響の分析などの研究も行ってきました。</p>
+        <h3>Selected Publications:</h3>
+        <ol>
+          <li><u>Murayama H</u>, Endo A, Yonekura S. Estimation of waning vaccine effectiveness from population-level surveillance data in multi-variant epidemics. <i>Epidemics</i>, 2023;100726.</li>
+          <li><u>Murayama H</u>, Pearson CAB, Abbott S, Miura F, Jung S, Fearon E, Funk S, & Endo A. Accumulation of immunity in heavy-tailed sexual contact networks shapes mpox outbreak sizes. <i>The Journal of Infectious Diseases</i>, 2023 Jul 4;jiad254.</li>
+          <li>Endo A, <u>Murayama H</u>, Abbott S, Ratnayake R, Pearson CAB, Edmunds WJ, Fearon E, Funk S. Heavy-tailed sexual contact networks and monkeypox epidemiology in the global outbreak, 2022. <i>Science</i>, 2022 Sep 25;0(0):eadd4507.</li>
+        </ol>
+          <br><br>
+           My e-mail adress: hiromura319[at]gmail.com <br>
+           
+        </p></div>
       </article>
     </section>
     <section class="sec-partners" role="section">
@@ -56,7 +66,7 @@
       <h1>Other Pages</h1>
       <div class="row">
         <div class="logo-container">
-           <a class="link", href="https://scholar.google.co.jp/citations?user=Kl-eyskAAAAJ&hl=ja"><img src="img/google.png" alt="Google logo" />
+           <a class="link", href="https://scholar.google.co.jp/citations?user=Kl-eyskAAAAJ&hl=en"><img src="img/google.png" alt="Google logo" />
         </div>
         <div class="logo-container">
            <a  class="link" href="https://researchmap.jp/hiroaki-murayama"><img src="img/researchmap.png" alt="Research map logo" />
@@ -77,9 +87,10 @@
       </div>
     </section>
 
-    
-
-  
   </main>
 </div>
 
+
+
+
+ 
