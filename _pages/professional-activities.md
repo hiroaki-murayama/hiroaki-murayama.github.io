@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "Policy, media, and professional activities"
+title: "Recent Activities"
 permalink: /professional-activities/
 author_profile: true
 ---
 ***
 
-- **30.Jul.2024.** Redesigned the website, including its overall layout and design elements.
-- **1.Apr.2024.** My appointment as a national COVID-19 taskforce member for the Ministry of Health, Labour and Welfare has been terminated as of April 1st.
+- **30.Jul.2024.** Redesigned the website, including its overall layout and design elements!
+- **1.Apr.2024.** My appointment as a national COVID-19 taskforce member for the Ministry of Health, Labour and Welfare has been terminated as of 1st April.
 - **7.Jan.2024.** Our paper published in Epidemics has become the most downloaded article, garnering interest from many readers! <a href="https://doi.org/10.1016/j.epidem.2023.100726" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 - **28.Dec.2023.** A new paper (preprint) is out on medRxiv. <a href="https://doi.org/10.1101/2023.12.25.23300526" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 - **31.Oct.2023.** Our paper on estimating waning vaccine effectiveness without relying on fine-scale data is published in Epidemics (first authored). <a href="https://doi.org/10.1016/j.epidem.2023.100726" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
