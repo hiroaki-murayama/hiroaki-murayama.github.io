@@ -16,7 +16,7 @@ I am Hiroaki Murayama, working on mathematical modelling of infectious diseases.
 * Quantification of transmission dynamics and optimal control strategies
 * Theoretical framework construction
 * Network modelling
-* Heterogeneous contact patterns and its impact on the dynamics
+* Disentangling the heterogeneity  
 * COVID-19, mpox, vector-borne diseases, STDs, etc.
 * Interdisciplinary field between ID epidemiology and Environmental epidemiology
 * Bayesian inference
