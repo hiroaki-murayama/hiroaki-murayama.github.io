@@ -7,7 +7,7 @@ author_profile: true
 ***
 
 - **30.Jul.2024.** Redesigned the website, including its overall layout and design elements!
-- **9.Apr.2024** I am joining [the team of Asst. Prof. Robbie Parks (Environmental Health Sciences)](https://sparklabnyc.github.io/site/home.html) at [Columbia University's Mailman School of Public Health](https://www.publichealth.columbia.edu/profile/robbie-m-parks-phd), working on Bayesian modeling of the effects of tropical cyclones on health outcomes
+- **9.Apr.2024** I am joining [the team of Asst. Prof. Robbie Parks (Environmental Health Sciences)](https://sparklabnyc.github.io/site/home.html) at [Columbia University's Mailman School of Public Health](https://www.publichealth.columbia.edu/profile/robbie-m-parks-phd), working on Bayesian modelling of the effects of tropical cyclones on health outcomes
 - **1.Apr.2024.** My appointment as a national COVID-19 taskforce member for the Ministry of Health, Labour and Welfare has been terminated as of 1st April.
 - **7.Jan.2024.** Our paper published in Epidemics has become the most downloaded article, having garnered interest from many readers! <a href="https://doi.org/10.1016/j.epidem.2023.100726" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 - **28.Dec.2023.** A new paper (preprint) is out on medRxiv. <a href="https://doi.org/10.1101/2023.12.25.23300526" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
