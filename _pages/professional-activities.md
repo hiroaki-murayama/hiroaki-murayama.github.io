@@ -6,6 +6,7 @@ author_profile: true
 ---
 ***
 
+- **28.Aug.2024.** Our paper on the global landscape of mpox clade IIb is now published in The Journal of Infectious Diseases. <a href="https://doi.org/10.1093/infdis/jiae433" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 - **30.Jul.2024.** Redesigned the website, including its overall layout and design elements!
 - **9.Apr.2024** I am joining [the team of Asst. Prof. Robbie Parks (Environmental Health Sciences)](https://sparklabnyc.github.io/site/home.html) at [Columbia University's Mailman School of Public Health](https://www.publichealth.columbia.edu/profile/robbie-m-parks-phd), working on Bayesian modelling of the effects of tropical cyclones on health outcomes
 - **1.Apr.2024.** My appointment as a national COVID-19 taskforce member for the Ministry of Health, Labour and Welfare has been terminated as of 1st April.

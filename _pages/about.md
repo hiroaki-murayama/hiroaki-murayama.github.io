@@ -10,6 +10,7 @@ redirect_from:
 
 I am Hiroaki Murayama, working on mathematical modelling of infectious diseases. I am a resident medical student in [School of Medicine, International University of Health and Welfare](https://narita.iuhw.ac.jp/en/academics/medicine/) in Japan. 
 
+Contact: hiromura319[at]gmail.com
 
 ## Interests
 ### Infectious Disease Epidemiology
