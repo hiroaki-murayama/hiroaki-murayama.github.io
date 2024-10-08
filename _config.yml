@@ -335,4 +335,5 @@ compress_html:
     envs: development
 
 # Google analytics
+params:
 google_analytics: G-9LZJG5Z7CT
