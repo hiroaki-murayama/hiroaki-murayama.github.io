@@ -7,6 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9LZJG5Z7CT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9LZJG5Z7CT');
+</script>
 
 <figure style="float: left; margin: -5px 0 -5px 0;">
     <img src='../images/header.jpg' style='width:100%;'>
