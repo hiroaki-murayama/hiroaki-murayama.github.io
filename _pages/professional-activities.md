@@ -6,6 +6,7 @@ author_profile: true
 ---
 ***
 
+- **16.Oct.2024.** Our new preprint is now out! This study disentangled the nuanced roles of community and sexual contacts on the clade I mpox transmission dynamics in DRC and other countries. <a href="https://doi.org/10.1101/2024.10.15.24315554" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 - **28.Aug.2024.** Our paper on the global landscape of mpox clade IIb is now published in The Journal of Infectious Diseases. <a href="https://doi.org/10.1093/infdis/jiae433" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 - **30.Jul.2024.** Redesigned the website, including its overall layout and design elements!
 - **9.Apr.2024** I am joining [the team of Asst. Prof. Robbie Parks (Environmental Health Sciences)](https://sparklabnyc.github.io/site/home.html) at [Columbia University's Mailman School of Public Health](https://www.publichealth.columbia.edu/profile/robbie-m-parks-phd), working on Bayesian modelling of the effects of tropical cyclones on health outcomes

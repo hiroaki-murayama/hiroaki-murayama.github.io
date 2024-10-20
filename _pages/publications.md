@@ -9,9 +9,9 @@ author_profile: true
 [Preprints](#pp) | [Peer-reviewed papers](#pr) | [Reports](#rp) | [Media](#md)
 <br>
 
-Updated: 30 September 2024
+Updated: 20 October 2024
 
-You can find the full publication list on my [Google Scholar](https://scholar.google.com/citations?user=Kl-eyskAAAAJ&hl=en) profile.
+You can also find the full publication list on my [Google Scholar](https://scholar.google.com/citations?user=Kl-eyskAAAAJ&hl=en) profile.
 
 † represents the equal contribution.
 

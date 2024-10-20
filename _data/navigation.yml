@@ -13,8 +13,8 @@ main:
 #   - title: "Outreach and media"
 #     url: /outreach-media/
         
-#   - title: "Blog"
-#     url: /year-archive/
+  - title: "Post"
+    url: /year-archive/
   
   - title: "Recent Activity"
     url: /professional-activities/
