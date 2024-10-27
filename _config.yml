@@ -47,6 +47,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
+  hide                   : false  
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
@@ -85,7 +86,7 @@ author:
   bio              : "Medical student, working on mathematical modelling of infectious diseases"
   location         : "Japan"
   employer         :
-  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=hiroaki+murayama"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Kl-eyskAAAAJ&hl=en"
   email            : "hiromura319@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Hiroaki-Murayama"
@@ -110,6 +111,7 @@ author:
   steam            :
   tumblr           :
   twitter          : "@mepbphhond_"
+  bluesky          : #"hiroaki-murayama.bsky.social"
   vine             :
   weibo            :
   xing             :
@@ -333,7 +335,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Google analytics
-params:
-google_analytics: G-9LZJG5Z7CT
