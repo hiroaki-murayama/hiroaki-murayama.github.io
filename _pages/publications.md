@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ***
-[Preprints](#pp) | [Peer-reviewed papers](#pr) | [Reports](#rp) | [Media](#md)
+[Preprints](#pp) | [Peer-reviewed papers](#pr) | [Conference](#conf) | [Reports](#rp) | [Media](#md)
 <br>
 
 Updated: 20 October 2024
@@ -30,6 +30,12 @@ You can also find the full publication list on my [Google Scholar](https://schol
   {% include archive-single.html %}
 {% endfor %}
 
+## <a name="conf"></a>Conference
+***
+
+<b>Murayama H</b>, Endo A. &quot;Transmission dynamics and risk assessment of mpox clade IIb and Ib within men who have sex with men.&quot; <i>Early Career Researcher Sandbox session, Infectious Disease Modelling conference.</i>Nov 2024. Bangkok, Thailand. <br/>
+[Slide PDF](/files/slide/Session_351_Hiroaki_Murayama.pdf)
+[Blog Post](/posts/2024/11/blog-post-4/)
 ## <a name="rp"></a>Report
 ***
 

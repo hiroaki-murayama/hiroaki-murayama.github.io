@@ -29,7 +29,7 @@ Contact: hiromura319[at]gmail.com
 * Quantification of transmission dynamics and optimal control strategies
 * Theoretical framework construction
 * Network modelling
-* Disentangling the heterogeneity  
+* Disentangling heterogeneity on contact patterns and transmission profiles  
 * COVID-19, mpox, vector-borne diseases, STDs, etc.
 * Interdisciplinary field between ID epidemiology and Environmental epidemiology
 * Bayesian inference
