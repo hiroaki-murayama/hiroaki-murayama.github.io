@@ -39,11 +39,11 @@ You can also find the full publication list on my [Google Scholar](https://schol
 
 {%- for y in years -%}
   {%- if y != "" -%}
-    <a href="#y{{ y }}">{{ y }}</a>{% unless forloop.last %} · {% endunless %}
+    <a href="#y{{ y }}">{{ y }}</a>{% unless forloop.last %} | {% endunless %}
   {%- endif -%}
 {%- endfor -%}
 
-<br><br>
+<br>
 
 {%- assign prev_year = "" -%}
 {%- for post in pubs_sorted -%}
