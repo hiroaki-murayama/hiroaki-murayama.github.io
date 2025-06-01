@@ -26,7 +26,7 @@ You can also find the full publication list on my [Google Scholar](https://schol
 ## <a name="pr"></a>Peer-reviewed papers
 ***
 
-{%- assign pubs_sorted = site.publications | sort: "date" | reverse -%}
+{% assign pubs_sorted = site.publications | sort: "date" | reverse -%}
 
 {%- assign year_buf = "" -%}
 {%- for p in pubs_sorted -%}
@@ -49,7 +49,7 @@ You can also find the full publication list on my [Google Scholar](https://schol
 {%- for post in pubs_sorted -%}
   {%- assign cur_year = post.date | date: "%Y" -%}
   {%- if cur_year != prev_year -%}
-<h2 id="y{{ cur_year }}">{{ cur_year }}</h2>
+## <a id="y{{ cur_year }}"></a>{{ cur_year }}
   {%- assign prev_year = cur_year -%}
   {%- endif -%}
 
