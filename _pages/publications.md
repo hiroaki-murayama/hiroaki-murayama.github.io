@@ -48,11 +48,7 @@ You can also find the full publication list on my [Google Scholar](https://schol
 {%- assign prev_year = "" -%}
 {%- for post in pubs_sorted -%}
   {%- assign cur_year = post.date | date: "%Y" -%}
-  {%- if cur_year != prev_year -%}
-<h2 id="y{{ cur_year }}">{{ cur_year }}</h2>
-{%- assign prev_year = cur_year -%}{%- endif -%}
-
-
+  {%- if cur_year != prev_year -%}<h2 id="y{{ cur_year }}">{{ cur_year }}</h2>{%- assign prev_year = cur_year -%}{%- endif -%}
   {% include archive-single.html %}
 {%- endfor -%}
 
