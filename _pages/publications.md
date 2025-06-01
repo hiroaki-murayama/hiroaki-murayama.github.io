@@ -24,7 +24,6 @@ You can also find the full publication list on my [Google Scholar](https://schol
 {% endfor %}
 
 ## <a name="pr"></a>Peer-reviewed papers
-***
 
 {%- assign pubs_sorted = site.publications | sort: "date" | reverse -%}
 
