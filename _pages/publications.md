@@ -26,6 +26,37 @@ You can also find the full publication list on my [Google Scholar](https://schol
 ## <a name="pr"></a>Peer-reviewed papers
 ***
 
+{%- assign pubs_sorted = site.publications | sort: "date" | reverse -%}
+
+{%- assign year_buf = "" -%}
+{%- for p in pubs_sorted -%}
+  {%- assign yy = p.date | date: "%Y" -%}
+  {%- unless year_buf contains yy -%}
+    {%- assign year_buf = year_buf | append: yy | append: "," -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- assign years = year_buf | split: "," | sort | reverse -%}
+
+<nav class="year-menu">
+  <strong>Jump&nbsp;to&nbsp;year&nbsp;→</strong>
+  {%- for y in years -%}
+    {%- if y != "" -%}
+      <a href="#y{{ y }}">{{ y }}</a>{% unless forloop.last %} · {% endunless %}
+    {%- endif -%}
+  {%- endfor -%}
+</nav>
+
+{%- assign prev_year = "" -%}
+{%- for post in pubs_sorted -%}
+  {%- assign cur_year = post.date | date: "%Y" -%}
+  {%- if cur_year != prev_year -%}
+  ### <a id="y{{ cur_year }}"></a>{{ cur_year }}
+  {%- assign prev_year = cur_year -%}
+  {%- endif -%}
+
+  {% include archive-single.html %}
+{%- endfor -%}
+
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}

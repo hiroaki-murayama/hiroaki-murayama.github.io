@@ -1,7 +1,7 @@
 ---
 title: "Simulating the international clade IIb mpox spread patterns in Asia, 2023 and onwards"
-collection: preprints
-permalink: /preprints/2025-05-mpxasia
+collection: publications
+permalink: /publications/2025-05-mpxasia
 date: 2025-05-30
 venue: 'Bulletin World Health Organization'
 paperurl: 'https://www.medrxiv.org/content/10.1101/2024.04.17.24305832v1.full.pdf'
