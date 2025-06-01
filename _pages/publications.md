@@ -9,7 +9,7 @@ author_profile: true
 [Preprints](#pp) | [Peer-reviewed papers](#pr) | [Conference](#conf) | [Reports](#rp) | [Media](#md)
 <br>
 
-Updated: 20 October 2024
+Updated: 1st June 2025
 
 You can also find the full publication list on my [Google Scholar](https://scholar.google.com/citations?user=Kl-eyskAAAAJ&hl=en) profile.
 
@@ -37,14 +37,11 @@ You can also find the full publication list on my [Google Scholar](https://schol
 {%- endfor -%}
 {%- assign years = year_buf | split: "," | sort | reverse -%}
 
-<nav class="year-menu">
-  <strong>Jump&nbsp;to&nbsp;year&nbsp;→</strong>
   {%- for y in years -%}
     {%- if y != "" -%}
       <a href="#y{{ y }}">{{ y }}</a>{% unless forloop.last %} · {% endunless %}
     {%- endif -%}
   {%- endfor -%}
-</nav>
 
 {%- assign prev_year = "" -%}
 {%- for post in pubs_sorted -%}
