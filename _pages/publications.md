@@ -37,26 +37,24 @@ You can also find the full publication list on my [Google Scholar](https://schol
 {%- endfor -%}
 {%- assign years = year_buf | split: "," | sort | reverse -%}
 
-  {%- for y in years -%}
-    {%- if y != "" -%}
-      <a href="#y{{ y }}">{{ y }}</a>{% unless forloop.last %} · {% endunless %}
-    {%- endif -%}
-  {%- endfor -%}
+{%- for y in years -%}
+  {%- if y != "" -%}
+    <a href="#y{{ y }}">{{ y }}</a>{% unless forloop.last %} · {% endunless %}
+  {%- endif -%}
+{%- endfor -%}
+
+<br><br>
 
 {%- assign prev_year = "" -%}
 {%- for post in pubs_sorted -%}
   {%- assign cur_year = post.date | date: "%Y" -%}
   {%- if cur_year != prev_year -%}
-  ### <a id="y{{ cur_year }}"></a>{{ cur_year }}
+## <a id="y{{ cur_year }}"></a>{{ cur_year }}
   {%- assign prev_year = cur_year -%}
   {%- endif -%}
 
   {% include archive-single.html %}
 {%- endfor -%}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
 
 ## <a name="conf"></a>Conference
 ***
