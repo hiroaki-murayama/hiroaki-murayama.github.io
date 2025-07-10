@@ -5,7 +5,7 @@ permalink: /professional-activities/
 author_profile: true
 ---
 ***
-- **10. Jul.2025** Our new project on simulating the international spread patterns of clade IIb mpox in Asia is now published in Bulettin of the World Health Organization. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12231075/" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
+- **10. Jul.2025** Our new project on simulating the international spread patterns of clade IIb mpox in Asia is now published in Bulletin of the World Health Organization. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12231075/" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 - **9. Jul.2025** We updated our preprint discussing roles of sexual transmission and community contact routes on the mpox clade Ib outbreak since 2024. <a href="https://www.medrxiv.org/content/10.1101/2024.10.15.24315554v2" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 - **5-8. Nov.2024** I participated in Infectious Disease Modelling conference 2024 held in Banglok, Thailand. It was a great honour to present our latest mpox work at Early Career Researcher session (oral). My slides and some other details are available from [here](/posts/2024/11/blog-post-4/).
 - **16.Oct.2024.** Our new preprint is now out! This study disentangled the nuanced roles of community and sexual contacts on the clade I mpox transmission dynamics in DRC and other countries. <a href="https://doi.org/10.1101/2024.10.15.24315554" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>

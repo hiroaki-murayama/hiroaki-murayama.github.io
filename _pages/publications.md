@@ -66,7 +66,7 @@ You can also find the full publication list on my [Google Scholar](https://schol
 ***
 
 Ko KY, <b>Murayama H</b>, Yamasaki L, Kinoshita R, Nishiura H, Suzuki M. (2021) &quot;Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo.&quot; <i>National Institute of Infectious Diseases, Infectious Diseases Surveillance Center</i>. 28th Dec 2021. <br/>
-<a href="https://www.niid.go.jp/niid/ja/2019-ncov/2484-idsc/10873-covid19-65.html" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
+<a href="https://id-info.jihs.go.jp/niid/ja/2019-ncov-e/10873-covid19-65.html" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 
 ## <a name="md"></a>Media
 ***
