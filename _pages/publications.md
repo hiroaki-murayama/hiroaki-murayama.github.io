@@ -71,7 +71,7 @@ Jung S, Miura F, <b>Murayama H</b>, Funk S, Wallinga J, Lessler J, Endo A. (2025
 
 ## <a name="rp"></a>Report
 ***
-Ko KY, <b>Murayama H</b>, Yamasaki L, Kinoshita R, Nishiura H, Suzuki M. (2021) &quot;Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo.&quot; <i>Materials 3-2, 65th Advisory Board Meeting, Ministry of Health, Labour and Welfare on COVID-19 Countermeasures (28 December 2021), 79-90</i>.  28 Dec 2021. (in Japanese) <br/>
+Ko KY, <b>Murayama H</b>, Yamasaki L, Kinoshita R, Nishiura H, Suzuki M. (2021) &quot;Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo.&quot; <i>Materials 3-2, 65th Advisory Board Meeting, Ministry of Health, Labour and Welfare on COVID-19 Countermeasures (28 December 2021), 79-90.&quot; </i>28 Dec 2021. (in Japanese) <br/>
 <a href="https://www.mhlw.go.jp/content/10900000/000875165.pdf" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
 
 Ko KY, <b>Murayama H</b>, Yamasaki L, Kinoshita R, Nishiura H, Suzuki M. (2021) &quot;Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo.&quot; <i>National Institute of Infectious Diseases, Infectious Diseases Surveillance Center</i>. 28th Dec 2021. (in Japanese)<br/>
