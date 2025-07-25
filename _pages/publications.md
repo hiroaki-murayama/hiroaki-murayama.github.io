@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ***
-[Preprints](#pp) | [Peer-reviewed papers](#pr) | [Conference](#conf) | [Reports](#rp) | [Media](#md)
+[Preprints](#pp) | [Peer-reviewed papers](#pr) | [Conference](#conf) | [Journal Correspondence](#jc) | [Reports](#rp) | [Media](#md)
 <br>
 
 Updated: 24 Jul 2025
@@ -63,7 +63,7 @@ You can also find the full publication list on my [Google Scholar](https://schol
 [Slide PDF](/files/slide/Session_351_Hiroaki_Murayama.pdf)
 [Blog Post](/posts/2024/11/blog-post-4/)
 
-## <a name="rp"></a>Journal Correspondence
+## <a name="jc"></a>Journal Correspondence
 ***
 
 Jung S, Miura F, <b>Murayama H</b>, Funk S, Wallinga J, Lessler J, Endo A. (2025) &quot;Preemptive Mpox Vaccine Deployment: Aligning Strategy with Reality.&quot; <i>The Journal of Infectious Diseases</i>. 2025 Jul;jiaf365. <br/>
