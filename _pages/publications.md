@@ -9,7 +9,7 @@ author_profile: true
 [Preprints](#pp) | [Peer-reviewed papers](#pr) | [Conference](#conf) | [Journal Correspondence](#jc) | [Reports](#rp) | [Media](#md)
 <br>
 
-Updated: 24 Jul 2025
+Updated: 19 Aug 2025
 
 You can also find the full publication list on my [Google Scholar](https://scholar.google.com/citations?user=Kl-eyskAAAAJ&hl=en) profile.
 
