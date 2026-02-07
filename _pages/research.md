@@ -12,7 +12,8 @@ I have regularly worked with [Asst. Prof. Akira Endo](https://akira-endo.github.
 Previously, I served as a member of National COVID-19 Taskforce at Japan's Ministry of Health, Labour and Welfare, where I conducted ad-hoc COVID-19 analyses.
 
 ### Selected Publications:
-1. <u>Murayama H</u>, Endo A, Yonekura S. Estimation of waning vaccine effectiveness from population-level surveillance data in multi-variant epidemics. *Epidemics*, 2023;100726.
-2. <u>Murayama H</u>, Pearson CAB, Abbott S, Miura F, Jung S, Fearon E, Funk S, & Endo A. Accumulation of immunity in heavy-tailed sexual contact networks shapes mpox outbreak sizes. *The Journal of Infectious Diseases*, 2023 Jul 4; jiad254.
-3. Endo A, <u>Murayama H</u>, Abbott S, Ratnayake R, Pearson CAB, Edmunds WJ, Fearon E, Funk S. Heavy-tailed sexual contact networks and monkeypox epidemiology in the global outbreak, 2022. *Science*, 2022 Sep 25;0(0):eadd4507.
+1. <u>Murayama H</u>†, Asakura TR†, D Dickens BL, Boyle D, Foo JH, Jin S, Mukadi PK, Ejima K, Jung S-m, Nishi A, Prem K, Wakamba AM, Saila-Ngita D, Niyukuri D, Endo A. The role of community and sexual contacts as drivers of clade I mpox outbreaks. *Nature Health*. 2026. (in press)
+2. <u>Murayama H</u>, Endo A, Yonekura S. Estimation of waning vaccine effectiveness from population-level surveillance data in multi-variant epidemics. *Epidemics*, 2023;100726.
+3. <u>Murayama H</u>, Pearson CAB, Abbott S, Miura F, Jung S, Fearon E, Funk S, & Endo A. Accumulation of immunity in heavy-tailed sexual contact networks shapes mpox outbreak sizes. *The Journal of Infectious Diseases*, 2023 Jul 4; jiad254.
+4. Endo A, <u>Murayama H</u>, Abbott S, Ratnayake R, Pearson CAB, Edmunds WJ, Fearon E, Funk S. Heavy-tailed sexual contact networks and monkeypox epidemiology in the global outbreak, 2022. *Science*, 2022 Sep 25;0(0):eadd4507.
 

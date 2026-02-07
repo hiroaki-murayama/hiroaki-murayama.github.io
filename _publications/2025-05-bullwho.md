@@ -1,7 +1,7 @@
 ---
 title: "Modelling international spread of clade IIb mpox on the Asia continent"
 collection: publications
-permalink: /publications/2025-05-mpxasia
+permalink: /_publications/2025-05-mpxasia
 date: 2025-05-30
 venue: 'Bulletin of the World Health Organization'
 paperurl: 'https://doi.org/10.2471/BLT.24.291815'

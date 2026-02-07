@@ -1,7 +1,7 @@
 ---
 title: "Vaccination strategies to achieve outbreak control for MPXV Clade I with a one-time mass campaign in sub-Saharan Africa: A scenario-based modelling study"
 collection: publications
-permalink: /publications/2025-09-plosmed
+permalink: /_publications/2025-09-plosmed
 date: 2025-09-06
 venue: 'PLOS Medicine'
 paperurl: 'https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1004726&type=printable'

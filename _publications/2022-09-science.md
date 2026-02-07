@@ -1,7 +1,7 @@
 ---
 title: "Heavy-tailed sexual contact networks and monkeypox epidemiology in the global outbreak, 2022"
 collection: publications
-permalink: /publication/2022-09-science
+permalink: /_publication/2022-09-science
 date: 2022-09-21
 venue: 'Science'
 paperurl: 'https://www.science.org/doi/epdf/10.1126/science.add4507'
