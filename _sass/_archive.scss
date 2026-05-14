@@ -107,6 +107,19 @@
   margin: 0 0 0.5em;
 }
 
+.publication-item {
+  margin: 0 0 1.25em;
+  padding: 1em 1.1em 0.9em;
+  border: 1px solid mix(#fff, $border-color, 35%);
+  border-radius: $border-radius;
+  background: rgba(#fff, 0.72);
+  box-shadow: 0 1px 2px rgba(#000, 0.025);
+}
+
+.publication-item .archive__item-title {
+  margin-top: 0;
+}
+
 .publication__badge,
 .publication__tag {
   display: inline-block;
