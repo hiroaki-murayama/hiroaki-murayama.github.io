@@ -1,26 +1,17 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Hiroaki Murayama works on mathematical modelling of infectious diseases, with interests in transmission dynamics, Bayesian inference, and environmental epidemiology."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9LZJG5Z7CT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-9LZJG5Z7CT');
-</script>
 
 <figure style="float: left; margin: -5px 0 -5px 0;">
-    <img src='../images/header.jpg' style='width:100%;'>
+    <img src="../images/header.jpg" alt="Network-style header image for mathematical infectious disease modelling" style="width:100%;">
 </figure>
-I am Hiroaki Murayama, working on mathematical modelling of infectious diseases. I am a medical student undergoing clinical rotations in [School of Medicine, International University of Health and Welfare](https://narita.iuhw.ac.jp/en/academics/medicine/) in Japan. 
+I am Hiroaki Murayama, a medical student undergoing clinical rotations at the [School of Medicine, International University of Health and Welfare](https://narita.iuhw.ac.jp/en/academics/medicine/) in Japan. My work focuses on mathematical modelling of infectious diseases, especially transmission dynamics, control strategies, and Bayesian approaches to public health questions.
 
 Contact: hiromura319[at]gmail.com
 
@@ -34,7 +25,7 @@ Contact: hiromura319[at]gmail.com
 * Interdisciplinary field between ID epidemiology and Environmental epidemiology
 * Bayesian inference
 
-My research work revolves around mathematical formulation of infectious disease dynamics drawing upon state-of-the-art mathematical/statistical/computational methodologies to comprehensively understand transmission dynamics across various scales, thereby contributing to adressing public health concerns and answering key questions.
+My research work revolves around mathematical formulation of infectious disease dynamics drawing upon state-of-the-art mathematical, statistical, and computational methodologies to understand transmission dynamics across various scales, thereby contributing to addressing public health concerns and answering key questions.
 
 In the case of directly transmitted diseases, each observed case is linked to its infector, creating the non-linear behaviour in the risk of infections. Consequently, there arises a necessity to reconstruct transmission dynamics through mathematical models that account for these non-i.i.d. settings.
 

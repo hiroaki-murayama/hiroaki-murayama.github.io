@@ -4,6 +4,16 @@ collection: publications
 permalink: /_publications/2025-05-mpxasia
 date: 2025-05-30
 venue: 'Bulletin of the World Health Organization'
+status: published
+authors: 'Asakura TR, Jung S, <b>Murayama H</b>, Ghaznavi C, Sakamoto H, Teshima A, Miura F, Endo A'
+citation_details: '2025.'
+topics:
+  - mpox
+  - international spread
+  - Asia
+methods:
+  - simulation
+  - risk assessment
 paperurl: 'https://doi.org/10.2471/BLT.24.291815'
 link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12231075/'
 github: 'https://github.com/toshiakiasakura/projection_of_mpox_in_Asia'

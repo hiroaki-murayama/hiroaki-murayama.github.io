@@ -13,7 +13,15 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article
+    class="archive__item{% if post.collection == 'publications' or post.collection == 'preprints' %} publication-item{% endif %}"
+    {% if post.collection == 'publications' or post.collection == 'preprints' %}
+      data-status="{{ post.status | default: post.collection }}"
+      data-year="{{ post.date | date: '%Y' }}"
+      data-search="{{ post.title | append: ' ' | append: post.authors | append: ' ' | append: post.venue | append: ' ' | append: post.topics | append: ' ' | append: post.methods | strip_html | downcase | escape }}"
+      data-topics="{{ post.topics | join: '|' | downcase | escape }}"
+    {% endif %}
+    itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -43,6 +51,21 @@
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' or post.collection == 'preprints' %}
+      {% assign status = post.status | default: post.collection %}
+      <p class="publication__status">
+        {% case status %}
+          {% when "published" %}<span class="publication__badge publication__badge--published">Published</span>
+          {% when "in_press" %}<span class="publication__badge publication__badge--in-press">In press</span>
+          {% when "preprint" %}<span class="publication__badge publication__badge--preprint">Preprint</span>
+          {% else %}<span class="publication__badge">{{ status }}</span>
+        {% endcase %}
+        {% if post.topics %}
+          {% for topic in post.topics %}
+            <span class="publication__tag">{{ topic }}</span>
+          {% endfor %}
+        {% endif %}
+      </p>
+
       {% if post.abstract %}
         <details><summary>Abstract</summary>
         <blockquote>
@@ -55,21 +78,23 @@
 
       <!-- citation and icon code -->
       <p>
-      {% if post.citation %}
+      {% if post.authors %}
+        {{ post.authors }}{% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}. &quot;{{ post.title }}.&quot; <i>{{ post.venue }}</i>{% if post.citation_details %}. {{ post.citation_details }}{% endif %}
+      {% elsif post.citation %}
         {{ post.citation }}
       {% endif %}
       <br>
       {% if post.link %}
-        <a href="{{ post.link }}" target="_blank"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
+        <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer" title="Publication link"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Publication link</span></a>
       {% endif %}
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" title="PDF"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i><span class="sr-only">PDF</span></a>
       {% endif %}
       {% if post.code %}
-        <a href="{{ post.code }}" target="_blank"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
+        <a href="{{ post.code }}" target="_blank" rel="noopener noreferrer" title="Code"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i><span class="sr-only">Code</span></a>
       {% endif %}
       {% if post.github %}
-        <a href="{{ post.github }}" target="_blank"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
+        <a href="{{ post.github }}" target="_blank" rel="noopener noreferrer" title="GitHub repository"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i><span class="sr-only">GitHub repository</span></a>
       {% endif %}
       </p>
     {% elsif post.collection == 'posts' and post.date %}

@@ -4,6 +4,16 @@ collection: publications
 permalink: /_publications/2025-09-plosmed
 date: 2025-09-06
 venue: 'PLOS Medicine'
+status: published
+authors: 'Jin S, Asakura TR, <b>Murayama H</b>, Niyukuri D, Saila-Ngita D, Lim JT, Endo A, Dickens BSL'
+citation_details: '2025;22(9):e1004726.'
+topics:
+  - mpox
+  - vaccination
+  - outbreak control
+methods:
+  - scenario analysis
+  - mathematical modelling
 paperurl: 'https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1004726&type=printable'
 link: 'https://doi.org/10.1371/journal.pmed.1004726'
 github: 'https://github.com/ShihuiJin/onetime_mpox_vaccination/tree/main'

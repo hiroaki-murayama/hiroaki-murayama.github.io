@@ -4,6 +4,16 @@ collection: publications
 permalink: /_publications/2023-12-epidemics
 date: 2023-12-11
 venue: 'Epidemics'
+status: published
+authors: '<b>Murayama H</b>, Endo A, Yoneoka S'
+citation_details: '2023;45:100726.'
+topics:
+  - COVID-19
+  - vaccine effectiveness
+  - multi-variant epidemics
+methods:
+  - mathematical modelling
+  - inference
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1755436523000622/pdfft?md5=ea726add6890caef681ab98cd068361d&pid=1-s2.0-S1755436523000622-main.pdf'
 link: 'https://doi.org/10.1016/j.epidem.2023.100726'
 github: 'https://github.com/hiroaki-murayama/waning_ve_estimation_multivariant'

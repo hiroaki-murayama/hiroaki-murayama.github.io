@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-UK"
+locale                   : "en-GB"
 title                    : "Hiroaki Murayama"
 title_separator          : "-"
 name                     : &name "Hiroaki Murayama"
-description              : &description "Medical student, working on mathematical modelling of infectious diseases"
+description              : &description "Medical student working on mathematical modelling, infectious disease epidemiology, and Bayesian approaches to public health questions."
 url                      : https://hiroaki-murayama.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "hiroaki-murayama/hiroaki-murayama.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -63,20 +63,26 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "header.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : "Hiroaki Murayama" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://scholar.google.com/citations?user=Kl-eyskAAAAJ&hl=en"
+    - "https://orcid.org/0000-0002-7219-5981"
+    - "https://github.com/hiroaki-murayama"
+    - "https://www.researchgate.net/profile/Hiroaki-Murayama"
+    - "https://www.linkedin.com/in/hiroaki-murayama-14a83828a/"
+    - "https://bsky.app/profile/hiroaki-murayama.bsky.social"
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "custom" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-9LZJG5Z7CT"
 
 
 # Site Author
@@ -103,7 +109,7 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         :
+  linkedin         : "hiroaki-murayama-14a83828a"
   orcid            : "https://orcid.org/0000-0002-7219-5981"
   pinterest        :
   soundcloud       :
@@ -111,7 +117,7 @@ author:
   steam            :
   tumblr           :
   twitter          : "@mepbphhond_"
-  bluesky          : #"hiroaki-murayama.bsky.social"
+  bluesky          : "hiroaki-murayama.bsky.social"
   vine             :
   weibo            :
   xing             :
@@ -186,9 +192,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  preprints:
-    output: true
-    permalink: /:collection/:path
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -244,15 +247,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _preprints
-  - scope:
-      path: ""
-      type: preprints
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _portfolio
   - scope:
       path: ""
@@ -281,7 +275,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tokyo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

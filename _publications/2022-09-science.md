@@ -4,6 +4,16 @@ collection: publications
 permalink: /_publication/2022-09-science
 date: 2022-09-21
 venue: 'Science'
+status: published
+authors: 'Endo A, <b>Murayama H</b>, Abbott S, Ratnayake R, Pearson CAB, Edmunds WJ, Fearon E†, Funk S†'
+citation_details: '378(6615):90-94.'
+topics:
+  - mpox
+  - sexual networks
+  - outbreak dynamics
+methods:
+  - network modelling
+  - transmission modelling
 paperurl: 'https://www.science.org/doi/epdf/10.1126/science.add4507'
 link: 'https://doi.org/10.1126/science.add4507'
 github: 'https://github.com/akira-endo/monkeypox_heavytail'
