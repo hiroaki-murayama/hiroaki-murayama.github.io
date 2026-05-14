@@ -6,7 +6,7 @@ date: 2026-04-06
 venue: 'Nature Health'
 status: published
 authors: '<b>Murayama H</b>†, Asakura TR†, Dickens BL, Boyle D, Foo JH, Jin S, Mukadi PK, Ejima K, Jung S-m, Nishi A, Prem K, Wakamba AM, Saila-Ngita D, Niyukuri D, Endo A'
-citation_details: '2026. https://doi.org/10.1038/s44360-026-00080-7'
+citation_details: '2026.'
 topics:
   - mpox
   - clade I
