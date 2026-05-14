@@ -6,23 +6,18 @@ author_profile: true
 excerpt: "Searchable publication list for Hiroaki Murayama, including peer-reviewed papers, preprints, conference outputs, reports, and media."
 ---
 
-[Preprints](#pp) | [Peer-reviewed papers](#pr) | [Conference](#conf) | [Journal Correspondence](#jc) | [Reports](#rp) | [Media](#md)
-<br>
-
-Updated: 14 May 2026
-
-You can also find the full publication list on my [Google Scholar](https://scholar.google.com/citations?user=Kl-eyskAAAAJ&hl=en) profile.
-
-† represents equal contribution.
-
 <div class="publication-controls" role="search" aria-label="Publication search and filters">
   <div class="publication-controls__row">
-    <input id="publication-search" type="search" placeholder="Search title, author, journal, topic, or method" aria-label="Search publications">
-    <select id="publication-status" aria-label="Filter by status">
-      <option value="all">All statuses</option>
+    <input id="publication-search" type="search" placeholder="Search title, author, journal, topic, method, or output type" aria-label="Search publications">
+    <select id="publication-status" aria-label="Filter by type or status">
+      <option value="all">All types/statuses</option>
       <option value="published">Published</option>
       <option value="in_press">In press</option>
       <option value="preprint">Preprint</option>
+      <option value="conference">Conference</option>
+      <option value="journal_correspondence">Journal correspondence</option>
+      <option value="report">Report</option>
+      <option value="media">Media</option>
     </select>
     <select id="publication-topic" aria-label="Filter by topic">
       <option value="all">All topics</option>
@@ -36,6 +31,17 @@ You can also find the full publication list on my [Google Scholar](https://schol
   </div>
   <p id="publication-count" class="publication-controls__count"></p>
 </div>
+
+[Preprints](#pp) | [Peer-reviewed papers](#pr) | [Conference](#conf) | [Journal Correspondence](#jc) | [Reports](#rp) | [Media](#md)
+<br>
+
+Updated: 14 May 2026
+
+You can also find the full publication list on my [Google Scholar](https://scholar.google.com/citations?user=Kl-eyskAAAAJ&hl=en) profile.
+
+&dagger; represents equal contribution.
+
+<p id="publication-empty" class="publication-empty" hidden>No matching outputs.</p>
 
 {% assign pubs_sorted = site.publications | sort: "date" | reverse %}
 
@@ -91,39 +97,93 @@ You can also find the full publication list on my [Google Scholar](https://schol
 {% endfor %}
 </section>
 
-<section id="conf">
+<section id="conf" class="publication-section" data-publication-section="conference">
 <h2>Conference</h2>
 
-<b>Murayama H</b>, Endo A. &quot;Transmission dynamics and risk assessment of mpox clade IIb and Ib within men who have sex with men.&quot; <i>Early Career Researcher Sandbox session, Infectious Disease Modelling conference.</i> Nov 2024. Bangkok, Thailand. <br/>
-[Slide PDF](/files/slide/Session_351_Hiroaki_Murayama.pdf)
-[Blog Post](/posts/2024/11/blog-post-4/)
+<div class="list__item publication-card">
+  <article class="archive__item publication-item" data-status="conference" data-year="2024" data-search="murayama h endo a transmission dynamics risk assessment mpox clade iib ib men who have sex with men early career researcher sandbox session infectious disease modelling conference nov 2024 bangkok thailand conference slide blog post" data-topics="mpox|sexual networks">
+    <h2 class="archive__item-title">Transmission dynamics and risk assessment of mpox clade IIb and Ib within men who have sex with men</h2>
+    <p class="publication__status">
+      <span class="publication__badge">Conference</span>
+      <span class="publication__tag">mpox</span>
+      <span class="publication__tag">sexual networks</span>
+    </p>
+    <p><b>Murayama H</b>, Endo A. "Transmission dynamics and risk assessment of mpox clade IIb and Ib within men who have sex with men." <i>Early Career Researcher Sandbox session, Infectious Disease Modelling conference.</i> Nov 2024. Bangkok, Thailand.<br>
+    <a href="/files/slide/Session_351_Hiroaki_Murayama.pdf" target="_blank" rel="noopener noreferrer" title="Slide PDF"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i><span class="sr-only">Slide PDF</span></a>
+    <a href="/posts/2024/11/blog-post-4/" title="Blog post"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Blog post</span></a></p>
+  </article>
+</div>
 </section>
 
-<section id="jc">
+<section id="jc" class="publication-section" data-publication-section="journal-correspondence">
 <h2>Journal Correspondence</h2>
 
-Jung S, Miura F, <b>Murayama H</b>, Funk S, Wallinga J, Lessler J, Endo A. (2025) &quot;Preemptive Mpox Vaccine Deployment: Aligning Strategy with Reality.&quot; <i>The Journal of Infectious Diseases</i>. 2025 Jul;jiaf365. <br/>
-<a href="https://doi.org/10.1093/infdis/jiaf365" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Publication link</span></a>
+<div class="list__item publication-card">
+  <article class="archive__item publication-item" data-status="journal_correspondence" data-year="2025" data-search="jung s miura f murayama h funk s wallinga j lessler j endo a preemptive mpox vaccine deployment aligning strategy with reality journal correspondence journal of infectious diseases 2025 jiaf365" data-topics="mpox|vaccine effectiveness">
+    <h2 class="archive__item-title">Preemptive Mpox Vaccine Deployment: Aligning Strategy with Reality</h2>
+    <p class="publication__status">
+      <span class="publication__badge">Journal correspondence</span>
+      <span class="publication__tag">mpox</span>
+      <span class="publication__tag">vaccine effectiveness</span>
+    </p>
+    <p>Jung S, Miura F, <b>Murayama H</b>, Funk S, Wallinga J, Lessler J, Endo A. (2025) "Preemptive Mpox Vaccine Deployment: Aligning Strategy with Reality." <i>The Journal of Infectious Diseases</i>. 2025 Jul;jiaf365.<br>
+    <a href="https://doi.org/10.1093/infdis/jiaf365" target="_blank" rel="noopener noreferrer" title="Publication link"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Publication link</span></a></p>
+  </article>
+</div>
 </section>
 
-<section id="rp">
+<section id="rp" class="publication-section" data-publication-section="reports">
 <h2>Reports</h2>
 
-Ko KY, <b>Murayama H</b>, Yamasaki L, Kinoshita R, Nishiura H, Suzuki M. (2021) &quot;Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo.&quot; <i>Materials 3-2, 65th Advisory Board Meeting, Ministry of Health, Labour and Welfare on COVID-19 Countermeasures (28 December 2021), 79-90.&quot; </i>28 Dec 2021. (in Japanese) <br/>
-<a href="https://www.mhlw.go.jp/content/10900000/000875165.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Report PDF</span></a>
+<div class="list__item publication-card">
+  <article class="archive__item publication-item" data-status="report" data-year="2021" data-search="ko ky murayama h yamasaki l kinoshita r nishiura h suzuki m evaluating age-specific effectiveness covid-19 vaccines against death surveillance data tokyo materials advisory board meeting ministry health labour welfare covid-19 countermeasures report japanese" data-topics="covid-19|vaccine effectiveness|surveillance">
+    <h2 class="archive__item-title">Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo</h2>
+    <p class="publication__status">
+      <span class="publication__badge">Report</span>
+      <span class="publication__tag">COVID-19</span>
+      <span class="publication__tag">vaccine effectiveness</span>
+      <span class="publication__tag">surveillance</span>
+    </p>
+    <p>Ko KY, <b>Murayama H</b>, Yamasaki L, Kinoshita R, Nishiura H, Suzuki M. (2021) "Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo." <i>Materials 3-2, 65th Advisory Board Meeting, Ministry of Health, Labour and Welfare on COVID-19 Countermeasures (28 December 2021), 79-90.</i> 28 Dec 2021. (in Japanese)<br>
+    <a href="https://www.mhlw.go.jp/content/10900000/000875165.pdf" target="_blank" rel="noopener noreferrer" title="Report PDF"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Report PDF</span></a></p>
+  </article>
+</div>
 
-Ko KY, <b>Murayama H</b>, Yamasaki L, Kinoshita R, Nishiura H, Suzuki M. (2021) &quot;Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo.&quot; <i>National Institute of Infectious Diseases, Infectious Diseases Surveillance Center</i>. 28th Dec 2021. (in Japanese)<br/>
-<a href="https://id-info.jihs.go.jp/niid/ja/2019-ncov-e/10873-covid19-65.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Report link</span></a>
+<div class="list__item publication-card">
+  <article class="archive__item publication-item" data-status="report" data-year="2021" data-search="ko ky murayama h yamasaki l kinoshita r nishiura h suzuki m evaluating age-specific effectiveness covid-19 vaccines against death surveillance data tokyo national institute infectious diseases surveillance center report japanese" data-topics="covid-19|vaccine effectiveness|surveillance">
+    <h2 class="archive__item-title">Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo</h2>
+    <p class="publication__status">
+      <span class="publication__badge">Report</span>
+      <span class="publication__tag">COVID-19</span>
+      <span class="publication__tag">vaccine effectiveness</span>
+      <span class="publication__tag">surveillance</span>
+    </p>
+    <p>Ko KY, <b>Murayama H</b>, Yamasaki L, Kinoshita R, Nishiura H, Suzuki M. (2021) "Evaluating the Age-Specific Effectiveness of COVID-19 Vaccines Against Death from surveillance data in Tokyo." <i>National Institute of Infectious Diseases, Infectious Diseases Surveillance Center</i>. 28 Dec 2021. (in Japanese)<br>
+    <a href="https://id-info.jihs.go.jp/niid/ja/2019-ncov-e/10873-covid19-65.html" target="_blank" rel="noopener noreferrer" title="Report link"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Report link</span></a></p>
+  </article>
+</div>
 </section>
 
-<section id="md">
+<section id="md" class="publication-section" data-publication-section="media">
 <h2>Media</h2>
 
-Endo A, <b>Murayama H</b>. &quot;Japanese Scientists in Science 2022.&quot; <i>AAAS</i> <br/>
-<a href="https://www.asca-co.com/business/science/pdf_japanese_scientists/Science_2022.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i><span class="sr-only">Media PDF</span></a>
+<div class="list__item publication-card">
+  <article class="archive__item publication-item" data-status="media" data-year="2023" data-search="endo a murayama h japanese scientists in science 2022 aaas media" data-topics="">
+    <h2 class="archive__item-title">Japanese Scientists in Science 2022</h2>
+    <p class="publication__status"><span class="publication__badge">Media</span></p>
+    <p>Endo A, <b>Murayama H</b>. "Japanese Scientists in Science 2022." <i>AAAS</i><br>
+    <a href="https://www.asca-co.com/business/science/pdf_japanese_scientists/Science_2022.pdf" target="_blank" rel="noopener noreferrer" title="Media PDF"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i><span class="sr-only">Media PDF</span></a></p>
+  </article>
+</div>
 
-Nishiura H, <b>Murayama H</b>. 特集「この先生に会いたい!! かくして生まれり,『割りおじさん』」<i>週刊医学界新聞</i> Vol. 3381, 医学書院. 10th Aug 2020. <br/>
-<a href="https://www.igaku-shoin.co.jp/paper/archive/y2020/PA03383_01" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Media link</span></a>
+<div class="list__item publication-card">
+  <article class="archive__item publication-item" data-status="media" data-year="2020" data-search="nishiura h murayama h media igaku shoin weekly medical journal 2020" data-topics="">
+    <h2 class="archive__item-title">Weekly Medical Journal feature</h2>
+    <p class="publication__status"><span class="publication__badge">Media</span></p>
+    <p>Nishiura H, <b>Murayama H</b>. Media feature. <i>Weekly Medical Journal</i> Vol. 3381, Igaku-Shoin. 10 Aug 2020.<br>
+    <a href="https://www.igaku-shoin.co.jp/paper/archive/y2020/PA03383_01" target="_blank" rel="noopener noreferrer" title="Media link"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i><span class="sr-only">Media link</span></a></p>
+  </article>
+</div>
 </section>
 
 <script>
@@ -136,9 +196,11 @@ Nishiura H, <b>Murayama H</b>. 特集「この先生に会いたい!! かくし�
     var sections = Array.prototype.slice.call(document.querySelectorAll('.publication-section'));
     var headings = Array.prototype.slice.call(document.querySelectorAll('.publication-year-heading'));
     var yearNav = document.querySelector('.publication-year-nav');
+    var empty = document.getElementById('publication-empty');
 
     function itemIsVisible(item) {
-      return item.style.display !== 'none';
+      var card = item.closest('.publication-card') || item;
+      return card.style.display !== 'none';
     }
 
     function sectionHasVisibleItems(section) {
@@ -171,7 +233,8 @@ Nishiura H, <b>Murayama H</b>. 特集「この先生に会いたい!! かくし�
         var matchesTopic = topicValue === 'all' || itemTopics.indexOf(topicValue) !== -1;
         var show = matchesQuery && matchesStatus && matchesTopic;
 
-        item.style.display = show ? '' : 'none';
+        item.parentElement.style.display = show ? '' : 'none';
+        item.style.display = '';
         if (show) {
           visible += 1;
         }
@@ -186,10 +249,14 @@ Nishiura H, <b>Murayama H</b>. 特集「この先生に会いたい!! かくし�
       });
 
       if (yearNav) {
-        yearNav.style.display = sectionHasVisibleItems(document.querySelector('[data-publication-section="peer-reviewed"]')) ? '' : 'none';
+        var peerReviewed = document.querySelector('[data-publication-section="peer-reviewed"]');
+        yearNav.style.display = peerReviewed && sectionHasVisibleItems(peerReviewed) ? '' : 'none';
       }
 
-      count.textContent = visible + ' publication' + (visible === 1 ? '' : 's') + ' shown';
+      count.textContent = visible + ' output' + (visible === 1 ? '' : 's') + ' shown';
+      if (empty) {
+        empty.hidden = visible !== 0;
+      }
     }
 
     if (search && status && topic && count) {

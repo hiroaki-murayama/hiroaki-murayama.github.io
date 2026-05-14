@@ -12,13 +12,13 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: "list" }}__item{% if post.collection == 'publications' or post.collection == 'preprints' %} publication-card{% endif %}">
   <article
     class="archive__item{% if post.collection == 'publications' or post.collection == 'preprints' %} publication-item{% endif %}"
     {% if post.collection == 'publications' or post.collection == 'preprints' %}
       data-status="{{ post.status | default: post.collection }}"
       data-year="{{ post.date | date: '%Y' }}"
-      data-search="{{ post.title | append: ' ' | append: post.authors | append: ' ' | append: post.venue | append: ' ' | append: post.topics | append: ' ' | append: post.methods | strip_html | downcase | escape }}"
+      data-search="{{ post.title | append: ' ' | append: post.authors | append: ' ' | append: post.venue | append: ' ' | append: post.citation_details | append: ' ' | append: post.status | append: ' ' | append: post.topics | append: ' ' | append: post.methods | strip_html | downcase | escape }}"
       data-topics="{{ post.topics | join: '|' | downcase | escape }}"
     {% endif %}
     itemscope itemtype="http://schema.org/CreativeWork">
