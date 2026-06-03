@@ -11,7 +11,7 @@ redirect_from:
 <figure style="float: left; margin: -5px 0 -5px 0;">
     <img src="../images/header.jpg" alt="Network-style header image for mathematical infectious disease modelling" style="width:100%;">
 </figure>
-I am Hiroaki Murayama, a medical student undergoing clinical rotations at the [School of Medicine, International University of Health and Welfare](https://narita.iuhw.ac.jp/en/academics/medicine/) in Japan. My work focuses on mathematical modelling of infectious diseases, especially transmission dynamics, control strategies, and Bayesian approaches to public health questions.
+I am Hiroaki Murayama, a final-year medical student at the [School of Medicine, International University of Health and Welfare](https://narita.iuhw.ac.jp/en/academics/medicine/) in Japan. My work focuses on mathematical modelling of infectious diseases, especially transmission dynamics, control strategies, and Bayesian approaches to public health questions.
 
 Contact: hiromura319[at]gmail.com
 
